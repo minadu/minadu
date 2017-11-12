@@ -34,7 +34,7 @@
     <section class="">
       <div class="container">
         <div class="col-3 text--center">
-          <img src="../assets/Logo.png" alt="" class="details-img--ball"/>
+          <img src="/assets/Logo.png" alt="" class="details-img--ball"/>
         </div>
         <div class="col-7 details">
           <h3>¿Quiénes somos?</h3>
