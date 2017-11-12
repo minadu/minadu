@@ -2,7 +2,7 @@
   <div class="wrapper">
     <header class="bg-image">
       <div class="container container-1">
-        <h1>Mi Nadü!</h1>
+        <h1>¡Mi Nadü!</h1>
         <h2>El huerto perfecto creado por ti.</h2>
         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#normalModal">Ordena tu kit ahora!</button>
         <!-- <a href="#" class="btn btn-transparent btn-ordena">Ordena tu kit ahora!</a> -->
