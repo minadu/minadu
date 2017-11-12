@@ -13,7 +13,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Kits! <span class="color-red">Agotado</span></h4>
+            <h4 class="modal-title">¡Kits! <span class="color-red">Agotado</span></h4>
             <p class="p-suscribete">En este momento no tenemos kits disponibles. Por favor suscribete dejando tu correo y una opinion y nosotros te informaremos en cuanto tengamos kits listos.</p>
             <p class="p-suscribete">Tu comentario es muy valioso para nosotros.</p>
           </div>
