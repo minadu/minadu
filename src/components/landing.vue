@@ -13,18 +13,20 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Suscribete!</h4>
+            <h4 class="modal-title">Kits! <span class="color-red">Agotado</span></h4>
+            <p class="p-suscribete">En este momento no tenemos kits disponibles. Por favor suscribete dejando tu correo y una opinion y nosotros te informaremos en cuanto tengamos kits listos.</p>
+            <p class="p-suscribete">Tu comentario es muy valioso para nosotros.</p>
           </div>
           <div class="modal-body">
             <label for="correo">Correo: </label>
-            <input v-model="suscripcion.correo" type="text" name="correo" id="correo">
+            <input v-model="suscripcion.correo" type="text" name="correo" id="correo" class="form-control">
             <hr>
             <label for="comentario">Comentario: </label>
             <textarea v-model="suscripcion.comentario" class="form-control" rows="3"></textarea>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-            <button v-on:click="enviar()" type="button" class="btn btn-success" data-dismiss="modal">Enviar</button>
+            <button v-on:click="enviar()" type="button" class="btn btn-success boton-enviar" data-dismiss="modal">Enviar</button>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -656,5 +658,19 @@ footer ul li a:hover {
 .h4Puesto{
   font-size: 2.5em;
   margin-bottom: -30%;
+}
+
+.color-red{
+  color: red;
+}
+
+.p-suscribete{
+  font-size: 17px;
+  margin-top: 7px;
+}
+
+.boton-enviar{
+  margin-top: 0;
+  background-color: green;
 }
 </style>
